@@ -26,6 +26,10 @@ The structural templates the skill produces (`INDEX.md`, `entry_template.md`, `w
 
 Reference material only. Not read by Claude Code at runtime.
 
+### `roundtable/`: Claude, ChatGPT and Gemini, arguing until they agree
+
+A kit for getting Claude, ChatGPT (Codex) and Gemini to work on one problem in a shared folder, push back on each other in rounds, and sign a single proposal. Two ways to run it: a kickoff prompt you paste into each desktop app (`roundtable/desktop/`), or a headless skill that drives all three CLIs from one command (`roundtable/headless/`). No API keys; it runs on the subscriptions you already have. Setup and install are in [`roundtable/README.md`](roundtable/README.md).
+
 ## Install
 
 ```bash
